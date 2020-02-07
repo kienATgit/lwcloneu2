@@ -25,9 +25,9 @@
 #define ENABLE_LED_DEVICE
 
 #define ENABLE_PANEL_DEVICE
-#define NUM_JOYSTICKS 2
+#define NUM_JOYSTICKS 0
 #define USE_MOUSE 0
-#define USE_CONSUMER 1
+#define USE_CONSUMER 0
 #define USE_KEYBOARD 1
 
 
