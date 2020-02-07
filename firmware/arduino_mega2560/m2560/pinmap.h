@@ -63,8 +63,8 @@
 
 #define PANEL_MAPPING_TABLE(_map_) \
 	\
-	_map_( E, 4,    MOD_LeftShift,   0                 ) /* ( OC3B/INT4 )         Digital pin 2 (PWM) */ \
-	_map_( E, 5,    MOD_RightShift,  0                 ) /* ( OC3C/INT5 )         Digital pin 3 (PWM) */ \
+	_map_( E, 4,    KEY_LeftArrow,   0                 ) /* ( OC3B/INT4 )         Digital pin 2 (PWM) */ \
+	_map_( E, 5,    KEY_RightArrow,  0                 ) /* ( OC3C/INT5 )         Digital pin 3 (PWM) */ \
 	_map_( G, 5,    MOD_LeftControl, 0                 ) /* ( OC0B )              Digital pin 4 (PWM) */ \
 	_map_( E, 3,    MOD_RightControl,0                 ) /* ( OC3A/AIN1 )         Digital pin 5 (PWM) */ \
 	_map_( H, 3,    KEY_Esc,         0                 ) /* ( OC4A )              Digital pin 6 (PWM) */ \
@@ -73,7 +73,7 @@
 	_map_( H, 6,    KEY_5,           KEY_5             ) /* ( OC2B )              Digital pin 9 (PWM) */ \
 	_map_( B, 4,    KEY_A,           KEY_A             ) /* ( OC2A/PCINT4 )       Digital pin 10 (PWM) */ \
 	_map_( B, 5,    KEY_S,           KEY_S             ) /* ( OC1A/PCINT5 )       Digital pin 11 (PWM) */ \
-	_map_( B, 6,    KEY_D,           KEY_D             ) /* ( OC1B/PCINT6 )       Digital pin 12 (PWM) */ \
+	_map_( B, 6,    KEY_Q,           KEY_D             ) /* ( OC1B/PCINT6 )       Digital pin 12 (PWM) */ \
 	_map_( B, 7,    J1_Up,           KEY_UpArrow       ) /* ( OC0A/OC1C/PCINT7 )  Digital pin 13 (PWM) */ \
 	_map_( J, 1,    J1_Left,         KEY_LeftArrow     ) /* ( TXD3/PCINT10 )      Digital pin 14 (TX3) */ \
 	_map_( J, 0,    0,               0                 ) /* ( RXD3/PCINT9 )       Digital pin 15 (RX3) */ \
